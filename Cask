@@ -1,8 +1,6 @@
 (source gnu)
 (source melpa)
 
-(depends-on "quickrun")
-
 (depends-on "async")
 (depends-on "auto-complete")
 (depends-on "bind-key")
@@ -10,6 +8,7 @@
 (depends-on "dash")
 (depends-on "diminish")
 (depends-on "drag-stuff")
+(depends-on "enh-ruby-mode")
 (depends-on "epl")
 (depends-on "exec-path-from-shell")
 (depends-on "expand-region")
@@ -18,6 +17,7 @@
 (depends-on "flycheck-cask")
 (depends-on "git-commit")
 (depends-on "helm")
+(depends-on "helm-robe")
 (depends-on "htmlize")
 (depends-on "idle-highlight-mode")
 (depends-on "inf-ruby")
@@ -39,6 +39,7 @@
 (depends-on "projectile")
 (depends-on "quickrun")
 (depends-on "rbenv")
+(depends-on "robe")
 (depends-on "ruby-block")
 (depends-on "ruby-end")
 (depends-on "s")

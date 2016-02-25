@@ -1,3 +1,7 @@
+;; Emacsclient
+(require 'server)
+(unless (server-running-p) (server-start))
+
 ;; バックアップファイル
 ;;(setq make-backup-files nil)
 (setq backup-directory-alist '(("." . "~/.emacs.d/backup"))) 
