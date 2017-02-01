@@ -1,2 +1,7 @@
+.*
+.*/
 backup/
+eshell/
+elpa/
+auto-save-list/
 

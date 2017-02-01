@@ -1,9 +1,1 @@
-(require 'cask "~/.cask/cask.el")
-(cask-initialize)
-(require 'pallet)
-(pallet-mode t)
-(require 'init-loader)
-(init-loader-load)
-(eval-when-compile (require 'use-package))
-(require 'diminish)
-(require 'bind-key)
+/home/nori/Dropbox/emacs/init.el
